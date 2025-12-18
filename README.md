@@ -1,16 +1,22 @@
 # SecretPixels
+Description
 This website lets you hide secret messages in PNG pictures and read them later. It changes the green part of the picture just a little, so no one can tell there's a message inside. You can upload a picture to find a hidden message or put your own message into a new one.
+
+Author
 Name: Ella Augustine
 Email: ellaaug@udel.edu
+
 Help Resources Used
+
 I completed this project primarily on my own using only the official Drafter documentation. I didn’t use any external websites, but I did receive occasional help from the course TAs when I had questions about the assignment requirements or how to fix specific errors. Their support helped get the site to work as intended.
 
 Planning Documents
+
 Plan, https://docs.google.com/document/d/1buLTVQVX2_Xrux-pUYI6IDnpQ1x4DQk1pzjQECjo5Os/edit?usp=sharing
 
 Requirements Checklist
-7 Routes: I created seven routes — index, display_image, encode, about, view_logs, clear_logs, and message_info.
 
+7 Routes: I created seven routes — index, display_image, encode, about, view_logs, clear_logs, and message_info.
 5 Pages: Each route returns its own Page, giving the site more than five pages total.
 
 State Dataclass with 4 Fields: My State dataclass includes four fields: image, message, logs, and filename.
@@ -30,4 +36,5 @@ No Global Variables: All information is passed through the State object — no g
 Only Approved Libraries Used: I only used Drafter, Bakery, and built-in Python libraries (including Pillow for image handling).
 
 Video URL
+
 <(https://drive.google.com/file/d/10cmkKoodR7IkD4K1pQhOvAQkwPUbf5Yt/view?usp=sharing)>
